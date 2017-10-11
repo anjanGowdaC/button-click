@@ -7,9 +7,10 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.example.sample.plugin.NewActivity">
+    android:text="Start Chat"
+    >
 
-    <TextView
+    <!-- <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -18,8 +19,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="77dp" />
-                <EditText
+        android:layout_marginTop="77dp" /> -->
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Send"
+            
+            android:layout_alignBottom="@+id/chat_text"
+            android:layout_alignParentRight="true"
+            />
+                            <EditText
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:inputType="textMultiLine"
@@ -30,14 +40,6 @@
             android:layout_toLeftOf="@+id/btn"
             />
 
-        <Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Send"
-            
-            android:layout_alignBottom="@+id/chat_text"
-            android:layout_alignParentRight="true"
-            />
 
 </RelativeLayout>
 
