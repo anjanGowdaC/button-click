@@ -1,5 +1,6 @@
 package com.example.sample.plugin;
 
+import com.example.sample.plugin.R;
 import android.app.Activity;
 import android.os.Bundle;
 
