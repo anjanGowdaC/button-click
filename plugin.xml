@@ -17,7 +17,7 @@
         <source-file src="src/android/PluginName.java" target-dir="src/com/example/sample/plugin" />
         <source-file src="src/android/NewActivity.java" target-dir="src/com/example/sample/plugin" />
         <source-file src="src/android/activity_new.xml" target-dir="res/layout"/>
-        <preference name="Fullscreen" value="true" />
-<preference name="BackgroundColor" value="0xff0000ff"/>
+        <!-- <preference name="Fullscreen" value="true" /> -->
+<preference name="BackgroundColor" value="0xFFFF0000" />
     </platform>
 </plugin>
