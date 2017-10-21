@@ -29,7 +29,7 @@ public class NewActivity extends Activity {
                   EditText username = (EditText)findViewById(getApplication().getResources().getIdentifier("editText1", "id", package_name));
 
                 // Context context = getApplicationContext();
-                CharSequence txt = String.valueOf(username);
+                CharSequence txt = String.valueOf(username.getText().toString());
  
                 Toast toast = Toast.makeText(context, txt, duration);
                 toast.show();
