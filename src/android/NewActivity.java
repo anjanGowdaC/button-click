@@ -1,6 +1,6 @@
 package com.example.sample.plugin;
 
-import com.example.sample.plugin.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -26,7 +26,7 @@ public class NewActivity extends Activity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
-                  EditText username = (EditText)findViewById(R.id.chat_text);
+                  EditText username = (EditText)findViewById(android.R.id.chat_text);
 
                 // Context context = getApplicationContext();
                 CharSequence txt = String.valueOf(username);
