@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.content.Context;
 import android.widget.Toast;
+import android.view.View;
+import android.view.*;
 
 public class NewActivity extends Activity {
 
