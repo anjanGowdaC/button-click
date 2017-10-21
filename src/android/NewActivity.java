@@ -24,9 +24,9 @@ public class NewActivity extends Activity {
                 CharSequence text = "Hello toast!";
                 int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();
-                  EditText username = (EditText)findViewById(android.R.id.chat_text);
+                // Toast toast = Toast.makeText(context, text, duration);
+                // toast.show();
+                  EditText username = (EditText)findViewById(android.R.id.editText1);
 
                 // Context context = getApplicationContext();
                 CharSequence txt = String.valueOf(username);
