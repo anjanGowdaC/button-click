@@ -39,7 +39,8 @@
 
             android:id="@+id/btn"
             android:onClick="start"
-            
+                android:background="@drawable/send"
+
             android:layout_alignParentEnd="true"
             android:layout_alignBottom="@+id/chat_text"
             android:layout_alignParentRight="true"

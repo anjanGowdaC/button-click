@@ -19,7 +19,7 @@
         <source-file src="src/android/NewActivity.java" target-dir="src/com/example/sample/plugin" />
         <source-file src="src/android/activity_new.xml" target-dir="res/layout"/>
         <source-file src="src/android/round_button_background.xml" target-dir="res/drawable"/>
-        <!-- <preference name="Fullscreen" value="true" /> -->
-
+  <source-file src="src/android/send.png" target-dir="res/drawable"/>
+      
     </platform>
 </plugin>
