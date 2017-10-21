@@ -26,7 +26,7 @@ public class NewActivity extends Activity {
 
                 // Toast toast = Toast.makeText(context, text, duration);
                 // toast.show();
-                  EditText username = (EditText)findViewById(getApplication().getResources().getIdentifier("editText1", "id", package_name));
+                  EditText username = (EditText)findViewById(getApplication().getResources().getIdentifier("chat_text", "id", package_name));
 
                 // Context context = getApplicationContext();
                 CharSequence txt = String.valueOf(username.getText().toString());

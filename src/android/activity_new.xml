@@ -30,7 +30,7 @@
             android:inputType="textMultiLine"
             android:ems="10"
             
-   android:id = "@+id/editText1"
+   android:id = "@+id/chat_text"
             android:layout_toStartOf="@+id/btn"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
