@@ -18,6 +18,7 @@
         <source-file src="src/android/PluginName.java" target-dir="src/com/example/sample/plugin" />
         <source-file src="src/android/NewActivity.java" target-dir="src/com/example/sample/plugin" />
         <source-file src="src/android/activity_new.xml" target-dir="res/layout"/>
+        <source-file src="src/android/round_button_background.xml" target-dir="res/drawable"/>
         <!-- <preference name="Fullscreen" value="true" /> -->
 
     </platform>
