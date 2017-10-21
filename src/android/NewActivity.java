@@ -19,7 +19,7 @@ public class NewActivity extends Activity {
         setContentView(getApplication().getResources().getIdentifier("activity_new", "layout", package_name));
     }
     public void start(View view) {
-       
+       String package_name = getApplication().getPackageName();
                 Context context = getApplicationContext();
                 CharSequence text = "Hello toast!";
                 int duration = Toast.LENGTH_SHORT;
