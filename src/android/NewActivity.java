@@ -25,13 +25,12 @@ public class NewActivity extends Activity {
 
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
-                  EditText username = (EditText)findViewById(com.example.sample.plugin.id.chat_text);
+                  EditText username = (EditText)findViewById(R.id.chat_text);
 
-                Context context = getApplicationContext();
-                CharSequence text = String.valueOf(username);
-                int duration = Toast.LENGTH_SHORT;
-
-                Toast toast = Toast.makeText(context, text, duration);
+                // Context context = getApplicationContext();
+                CharSequence txt = String.valueOf(username);
+ 
+                Toast toast = Toast.makeText(context, txt, duration);
                 toast.show();
 
    }
