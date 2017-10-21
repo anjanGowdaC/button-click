@@ -8,6 +8,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:text="Start Chat"
+    android:background="@android:color/holo_red_dark"
     >
 
     <!-- <TextView
