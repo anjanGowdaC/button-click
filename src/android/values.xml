@@ -3,4 +3,6 @@
      <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="start">Get Started</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="x">X</string>
 </resources>
