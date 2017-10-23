@@ -32,6 +32,8 @@ public class NewActivity extends Activity {
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
 
+        setContentView(getApplication().getResources().getIdentifier("chat_activity", "layout", package_name));
+
    }
    public void closeme(View view) {
        
