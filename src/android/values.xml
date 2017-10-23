@@ -2,4 +2,5 @@
     <string name="start_chat">Start Chat</string>
      <string name="name">Name</string>
     <string name="email">Email</string>
+    <string name="start">Get Started</string>
 </resources>
