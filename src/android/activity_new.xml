@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:text="@string/start"
         android:background="#428bca"
-
+        android:onClick="start"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="33dp"
         android:layout_alignLeft="@+id/editText2"
