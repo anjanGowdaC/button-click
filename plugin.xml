@@ -20,6 +20,7 @@
 <source-file src="src/android/activity_new.xml" target-dir="res/layout"/>
 <source-file src="src/android/round_button_background.xml" target-dir="res/drawable"/>
 <source-file src="src/android/send.png" target-dir="res/drawable"/>
+<source-file src="src/android/values.xml" target-dir="res/string"/>
 
 </platform>
 </plugin>
