@@ -1,61 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:paddingBottom="16dp"
-android:paddingLeft="16dp"
-android:paddingRight="16dp"
-android:paddingTop="16dp"
-android:text="Start Chat"
-android:background="@android:color/white"
->
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical"
+    tools:context=".NewActivity">
 
     <ListView
+        android:id="@+id/msgview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:divider="@null"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-        
-<Button 
-android:layout_alignParentRight="true" 
-android:text="X"
-android:textColor="#FFF"
-android:background="@drawable/round_button_background"
-android:gravity="center_vertical|center_horizontal"
-android:layout_margin="5dp" 
-android:layout_height="25dp"
-android:layout_width="25dp" 
-android:textSize="12sp"
-android:textStyle="bold"
-android:onClick="closeme"
-/>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
-<EditText
-android:layout_height="wrap_content"
-android:layout_width="wrap_content"
-android:inputType="textMultiLine"
-android:ems="10"
-android:textColor="#000606"
-android:id = "@+id/chat_text"
-android:layout_toStartOf="@+id/btn"
-android:layout_alignParentStart="true"
-android:layout_alignParentBottom="true"
-android:layout_alignParentLeft="true"
-android:layout_toLeftOf="@+id/btn"
-/>
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
 
-<Button
-android:layout_height="wrap_content"
-android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Send" />
 
-android:id="@+id/btn"
-android:onClick="start_chat"
-android:background="@drawable/send"
-
-android:layout_alignParentEnd="true"
-android:layout_alignBottom="@+id/chat_text"
-android:layout_alignParentRight="true"
-/>
-
-</RelativeLayout>
-
+    </LinearLayout>
+</LinearLayout>
